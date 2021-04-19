@@ -1,1 +1,133 @@
-/* You can add global styles to this file, and also import other style files */
+@import 'https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css';
+@import 'https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css';
+
+.loginPage {
+    width: 400px;
+    margin: auto;;
+}
+
+.loginPage h2 {
+    text-align: center;
+    font-weight: bold;
+} 
+
+.form-group label {
+    margin-left: 10%;
+    margin-bottom: 0;
+    font-size: 0.8rem;
+    background: white;
+    padding: 0 0.6rem;
+}
+
+
+.form-group input {
+    margin-top: -.6rem;
+    margin-bottom: 0;
+}
+
+
+.loginPage button {
+    width: 100%;
+    background-color: #faaa0c !important;
+    border: none;
+    border-radius: 0;
+} 
+
+.users .header {
+    height: 4rem;
+    display: flex;
+}
+
+.users .header img{
+    height: 100%;
+}
+
+.users .header .user{
+    height: 50%;
+    margin: auto 1rem auto auto;
+}
+
+
+.users .mat-tab-label {
+    border-color: white !important;
+    border: 0;
+    border-bottom: 0.5rem;
+    border-style: solid;
+}
+
+.users .mat-tab-label-active {
+    border-color: #009999 !important;
+}
+
+
+.users .user-info-background, .users .help-info-background {
+    background-color: #82a9ce;
+    padding: 0.5rem 2rem 0;
+}
+
+.users .user-info, .users .help-info  {
+    width: 50%;
+    padding: 1rem 2rem 3rem;
+    background-color: white;
+    min-height: 20rem;
+}
+
+
+.user-find .search-bar-background  {
+    background-color: white;
+}
+
+
+.user-find .search-bar  {
+    width: 80%;
+    margin: auto;
+    background-color: #6dc2c4 !important;
+    margin-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.user-find .search-bar label  {
+    background-color: transparent !important;
+}
+
+.user-find .fields  {
+    display: flex;
+}
+
+.user-find .fields .form-group  {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    flex:auto;
+}
+
+.user-find .buttons  {
+    display: flex;
+}
+
+
+
+.user-find .reset-form  {
+    margin-left:auto;
+}
+
+.user-find .buttons > .btn  {
+    margin-left:0.5rem;
+    margin-right:0.5rem;
+}
+
+.user-find .found-count {
+    width: 90%;
+    margin: 0.5rem auto 0;
+}
+
+
+.found-users table {
+    width: 90%;
+}
+
+table thead {
+    background: lightgrey;
+}
+
+
+
